@@ -1,5 +1,5 @@
 /*
- * fabemit Arduino Pro Micro Sim Pedals
+ * ThisOldScot Arduino Pro Micro Sim Pedals
  * -------------------------------------
  * Board Used: 
  * Arduino Pico Micro 32u4 Dev Board.
@@ -99,7 +99,7 @@ long lastBrakeValue = 0;    // Store last known brake value
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("=== fabemit Sim Racing Pedals ===");
+  Serial.println("=== ThisOldScot Sim Racing Pedals ===");
   Serial.println("Press 'r' to reset brake zero point");
   Serial.println("Press 'd' to toggle debug mode");
   Serial.println();
